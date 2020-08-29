@@ -19,7 +19,7 @@ Two functions are available: ```crunch_api_ppl``` and ``` crunch_api_org```, res
   * Query result is returned as a Pandas DataFrame, and users can choose to save them directly in a .csv file.
   * If no records is available, the return would be None and no .csv files would be created.
 * RapidAPI Key
-  * For each run, users would have to enter the valid Key only once.
+  * For each run (may contains multiple queries), users would need to enter the valid Key only once.
   * If the key is invalid, users would be asked to re-enter the Key until it's valid.
   
 ### ```crunch_api_ppl```
