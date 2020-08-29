@@ -14,10 +14,10 @@ Two functions are available: ```crunch_api_ppl``` and ``` crunch_api_org```, res
 
 ### Features
 * Number limitation supported
-  * Users can appoint the maximum number of the records they want to obtain, and functions would return either all records (if the appointed number is non-positive or is greater the total number of records searched) or this number of records.
+  * Users can appoint the maximum number of the records they want to obtain, and functions would return either all records (if the appointed number is non-positive or is greater than the total number of records searched) or this number of records.
 * CSV files supported
-  * Query result is returned as a Pandas DataFrame, and users can choose to save them directly in a .csv file.
-  * If no records is available, the return would be None and no .csv files would be created.
+  * Query results are returned as Pandas DataFrames, and users can choose to save them directly in a .csv file.
+  * If no record is available, the return would be None and no .csv files would be created.
 * RapidAPI Key
   * For each run (may contains multiple queries), users would need to enter the valid Key only once.
   * If the key is invalid, users would be asked to re-enter the Key until it's valid.
